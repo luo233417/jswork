@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>罗炜昌的Jouery Ajax无刷新提交评论</title>
-    <script src="../jquery.js"></script>
+    <title>jQuery Ajax无刷新提交评论</title>
+    <script src="jquery.js"></script>
 </head>
-
 <body>
-    <div>罗炜昌的Jouery Ajax无刷新提交评论</div>
-    学号：<input type="text" value="07190529" id="sno"><br>
-    姓名：<input type="text" value="钢铁侠" id="name"><br>
-    评论：<input type="text" value=" I am iron man!" id="content" size=30><br>
-    <input type="button" value="发表评论" onclick="send()"><br>
+    
+    <div>jQuery ajaxF无刷新提交评论</div>
+    <form>
+        学号：<input type="text" value="07190529" name="sno"><br>
+        姓名:<input type="text" value="罗炜昌" name="name"><br>
+        评论：<input type="text" value="I am Iron man！" name="content" size=30><br>
+  <input type="button" value="发表评论"><br>
+
+    </form>
     <div id="result"></div>
 </body>
-<script src="index.js"></script>
+<script src="index1.js"></script>
 </html>
